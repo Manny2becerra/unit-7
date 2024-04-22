@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Config File
+In the src folder create a config.js file.
+In the file create a variable called apiKey
+Export the key. The config.js file should look like this.
+const apiKey = 'your key here';
+export default apiKey;
+
+in the App.js file import the key like this.
+import apikey from './config';
