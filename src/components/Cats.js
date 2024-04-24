@@ -1,9 +1,5 @@
 import Gallery from "./Gallery";
-import Nav from "./Nav";
-import SearchForm from "./SearchForm";
-import React, {useEffect, useState} from "react";
-import axios from "axios";
-const api = axios.create();
+import React from "react";
 const Cats = ({flicker}) => {
 
     return (

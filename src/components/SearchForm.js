@@ -1,6 +1,5 @@
 import React, {useRef} from "react";
 import '../App.css';
-import Gallery from "./Gallery";
 import Nav from "./Nav";
 import { useNavigate } from 'react-router-dom';
 const SearchForm = ({handleSearch}) => {
